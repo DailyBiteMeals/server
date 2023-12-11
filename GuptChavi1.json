@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "dailybitebackend",
+  "private_key_id": "e3807fc3a912349b769ca8eb756af66ccdda21f1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDIWusKCHGkQys0\ntVo+6338InNZLGBkj68RGkTtA0mQ740K7e/iljrus3Lb8s9tdCKYxsOKlryaISmf\nync6JQZalERgzrPVf+kwE2oA4eL+30LsGAKD2cNt/pZuRU+JN9nFGAW4cPWR/ysD\n2dk6j0mD6VbYhxDzXp0L0mQOB8rwr0R2Wo75l/ZsQQ/+9q9hJ+nA2bs4ImCMKY2m\nMJBGZGMTXTGHzBD16eR9y+eWkCv4TBX0+2NvknCz8EkbSm1deUTWj/WfPOIustCJ\npAQ9LK4WKf/jEKTgH5IjwaQFT3XnW4RHYLLQcmtucsBhwdXCVXpbymJAZBKsVa2k\nUmr92GodAgMBAAECggEAMNZwqo5qXRb+Zie6qtGucRJYuajmijy3+NxFZtzBRvIN\nmFdtfPcPwHW/jru+Mjj34fO5YIPjz1I8GjY5H9Q8m0G+9TYNggJe7hgdY7+sHGKB\nppknq8oeKCbBtnlwrMsPa0qywkXOplrjulmU6QBadCwhvkAWMqyibWpId18Q6d/w\nx776gQn+z8K/mgZ7fA5fX3pAlj0CGzPXCSzeLkHRzZbYqOL4ae+2Ravef676339z\ngchpCxXl2SBnTYbQR9ykH79LaX16LEptk5S/Fg+DheB+1HqQB5VqsdMdJP2dxoC0\n1MGOWUuknNEWqFHLgQxGnLbCYoJ0qOXxL44avjvJRQKBgQDoDvOJgMpKdALfR6c3\nRCRXJvPmBtjYKIe/rZVsEn8x/EPhNuEIeyNqRPu3+MFizGl6NF6YWfh8d/28ahai\n+r6iSdNK2Mr8kzegk6ql/DxhqUu5fiJ0R4Rdf72oAb/jwrLOKV2c2j4sHm/xaCFV\n3oN0kmuNmX8n0cBWaPit69h86wKBgQDdBqGOjL8fmCG9c5pxMqqDv5Qi142yoLhp\nfm7DK0oyVWjsEVYwEBxR+hbGCN0F7kODAYf+3o5qxV/JD0R1rriVf8gz21fkxxuV\nhwL03C38T1FbALxPz4A7JJqCE+Tob6YDivXIh/fNZjHFMXulEg5g22ie0cu5K6kQ\n9D4nmW9TFwKBgDjCn3L8m35GjgVLI21zL2hZ0MJs3lFQ6JNLxAahJ5d0Wq4VnElU\nxT7TDLbdE4A0+3+2m4SsTQk02E1jrZHDvyk24YWnLU9GOw79z3m2Dpbcr/b5EThb\n3dZ4zkzv0J3HG7EtkQYyo45rC3qCu9SjDohO4BvMdbuppF/+YQU5cMRtAoGBAMEZ\n7wHks4H93tRu8Gqfclvif6ClJBYA1rzMCicXZh5tglpklyEsoiF41naz/a4VyQPm\nzZL9i/16bUHyxcPvHzL1zcqIgtTMo6vSpeGZj8+U2KYiEWPFDOofA6JLkT0Fdkw4\nFp3ZNMVN2IPIxJamHMvARTokXtFrdKzsRnVAVwOHAoGAMCLi+pPZsgrQ1axNqTTY\ny1gzzAm9CyscJ1f/Xe35YfNbG+y3zdZMm7/IEBxsG9XEOE4lLebKFety76Y1ju1A\nCC2hpt3jujmJSmJdBZ9fFmtpG/HdkMJmPkp3d6G6oATWThFu2FtnpXfCTEYoeReD\nGlOSdB0DCp1fdeqoJxb8TMc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "contactformdailybite4@dailybitebackend.iam.gserviceaccount.com",
+  "client_id": "106479716427795058870",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/contactformdailybite4%40dailybitebackend.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

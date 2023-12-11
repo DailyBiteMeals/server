@@ -33,6 +33,18 @@ app.use((req, res, next) => {
     "Access-Control-Allow-Origin",
     "https://rainbow-chaja-bebf2e.netlify.app/"
   );
+  res.setHeader(
+    "Access-Control-Allow-Credentials",
+    "https://rainbow-chaja-bebf2e.netlify.app/HomeContactForm"
+  );
+  res.setHeader(
+    "Access-Control-Allow-Credentials",
+    "https://rainbow-chaja-bebf2e.netlify.app/ProductContactForm/:productId"
+  );
+  res.setHeader(
+    "Access-Control-Allow-Credentials",
+    "https://rainbow-chaja-bebf2e.netlify.app/ContactForm"
+  );
   next();
 });
 // /HomeContactForm

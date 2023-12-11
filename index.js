@@ -8,6 +8,8 @@ import contactUsFormRouter from "./src/contactUsForm.js";
 const app = express();
 
 app.use((req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "true");
   res.setHeader("Access-Control-Allow-Origin", "http://localhost:5173");
   res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
@@ -16,12 +18,24 @@ app.use((req, res, next) => {
     "https://dailybite4-0-backend.onrender.com/"
   );
   res.setHeader(
+    "Access-Control-Allow-Credentials",
+    "https://dailybite4-0-backend.onrender.com/HomeContactForm"
+  );
+  res.setHeader(
+    "Access-Control-Allow-Credentials",
+    "https://dailybite4-0-backend.onrender.com/ProductContactForm/:productId"
+  );
+  res.setHeader(
+    "Access-Control-Allow-Credentials",
+    "https://dailybite4-0-backend.onrender.com/ContactForm"
+  );
+  res.setHeader(
     "Access-Control-Allow-Origin",
     "https://rainbow-chaja-bebf2e.netlify.app/"
   );
   next();
 });
-
+// /HomeContactForm
 app.use(express.json());
 // app.use(express.static("/ContactForm"));
 

@@ -47,17 +47,15 @@ app.use((req, res, next) => {
     "Access-Control-Allow-Credentials",
     "https://rainbow-chaja-bebf2e.netlify.app/ContactForm"
   );
-  next();
+  if (req.method === "OPTIONS") {
+    res.sendStatus(200); // Respond to OPTIONS requests
+  } else {
+    next();
+  }
 });
 // /HomeContactForm
 app.use(express.json());
 // app.use(express.static("/ContactForm"));
-
- if (req.method === "OPTIONS") {
-   res.sendStatus(200); // Respond to OPTIONS requests
- } else {
-   next();
- }
 
 // Use respective routers for each form
 app.use("/", homeContactFormRouter);

@@ -31,22 +31,6 @@ app.use((req, res, next) => {
     "Access-Control-Allow-Credentials",
     "https://dailybite4-0-backend.onrender.com/ContactForm"
   );
-  res.setHeader(
-    "Access-Control-Allow-Origin",
-    "https://rainbow-chaja-bebf2e.netlify.app"
-  );
-  res.setHeader(
-    "Access-Control-Allow-Credentials",
-    "https://rainbow-chaja-bebf2e.netlify.app/HomeContactForm"
-  );
-  res.setHeader(
-    "Access-Control-Allow-Credentials",
-    "https://rainbow-chaja-bebf2e.netlify.app/ProductContactForm/:productId"
-  );
-  res.setHeader(
-    "Access-Control-Allow-Credentials",
-    "https://rainbow-chaja-bebf2e.netlify.app/ContactForm"
-  );
   if (req.method === "OPTIONS") {
     res.sendStatus(200); // Respond to OPTIONS requests
   } else {

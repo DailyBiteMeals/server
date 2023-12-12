@@ -15,10 +15,7 @@ app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
 
   res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
-  res.setHeader(
-    "Access-Control-Allow-Credentials",
-    "https://dailybite4-0-backend.onrender.com"
-  );
+
   res.setHeader(
     "Access-Control-Allow-Origin",
     "https://dailybite4-0-backend.onrender.com"
@@ -27,25 +24,14 @@ app.use((req, res, next) => {
     "Access-Control-Allow-Origin",
     "https://rainbow-chaja-bebf2e.netlify.app"
   );
-  res.setHeader(
-    "Access-Control-Allow-Credentials",
-    "https://dailybite4-0-backend.onrender.com/HomeContactForm"
-  );
-  res.setHeader(
-    "Access-Control-Allow-Credentials",
-    "https://dailybite4-0-backend.onrender.com/ProductContactForm/:productId"
-  );
-  res.setHeader(
-    "Access-Control-Allow-Credentials",
-    "https://dailybite4-0-backend.onrender.com/ContactForm"
-  );
+
   if (req.method === "OPTIONS") {
     res.sendStatus(200); // Respond to OPTIONS requests
   } else {
     next();
   }
 });
-// /HomeContactForm
+
 app.use(express.json());
 // app.use(express.static("/ContactForm"));
 
@@ -57,3 +43,5 @@ app.use("/", contactUsFormRouter);
 app.listen(process.env.PORT || 5000, () =>
   console.log(`App running on http://localhost:5000`)
 );
+
+

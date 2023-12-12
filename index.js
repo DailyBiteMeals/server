@@ -20,6 +20,14 @@ app.use((req, res, next) => {
     "https://dailybite4-0-backend.onrender.com"
   );
   res.setHeader(
+    "Access-Control-Allow-Origin",
+    "https://dailybite4-0-backend.onrender.com"
+  );
+  res.setHeader(
+    "Access-Control-Allow-Origin",
+    "https://rainbow-chaja-bebf2e.netlify.app"
+  );
+  res.setHeader(
     "Access-Control-Allow-Credentials",
     "https://dailybite4-0-backend.onrender.com/HomeContactForm"
   );

@@ -24,6 +24,7 @@ app.use((req, res, next) => {
     "Access-Control-Allow-Origin",
     "https://rainbow-chaja-bebf2e.netlify.app"
   );
+  res.setHeader("Access-Control-Allow-Origin", "https://dailybite.in");
 
   if (req.method === "OPTIONS") {
     res.sendStatus(200); // Respond to OPTIONS requests
@@ -43,5 +44,3 @@ app.use("/", contactUsFormRouter);
 app.listen(process.env.PORT || 5000, () =>
   console.log(`App running on http://localhost:5000`)
 );
-
-
